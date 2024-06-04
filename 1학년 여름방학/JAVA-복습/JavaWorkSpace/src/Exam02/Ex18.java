@@ -1,0 +1,15 @@
+package Exam02;
+
+public class Ex18 {
+    public static void main(String[] args) {
+
+        boolean result = true;
+        boolean result2 = !result;                      // true -> false
+
+        System.out.println(result2);
+
+        boolean result3 = !result2;                     // false -> true
+
+        System.out.println(result3);
+    }
+}

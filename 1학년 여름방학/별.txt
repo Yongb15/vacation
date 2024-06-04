@@ -1,0 +1,38 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main() {																		// 삼각형
+	for (int i = 0; i <= 10; i++) {
+		for (int j = 10; j > i; j--) {
+				printf(" ");
+		}
+		for (int k = 0; k <1+ i*2; k++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+}
+
+#define _CRT_SECURE_NO_WARNINGS						// 마름모 
+#include <stdio.h>
+
+int main() {
+	for (int i = 0; i <= 10; i++) {
+		for (int j = 10; j > i; j--) {
+			printf(" ");
+		}
+		for (int k = 0; k < 1 + i * 2; k++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+	for (int i = 9; i >= 0; i--) {
+		for (int j = 10; j > i; j--) {
+			printf(" ");
+		}
+		for (int k = 0; k < 1 + i * 2; k++) {
+			printf("*");
+		}
+		printf("\n");
+	}
+}
